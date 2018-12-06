@@ -1,1 +1,38 @@
-teste
+
+*************************************
+** Parte 1 - clientes
+*************************************
+
+Vamos implementar o relatório 1 -> mostrar dados dos clientes
+
+1) Adicionar os atributos em falta à classe Cliente
+
+2) Implementar a classe ClienteEmpresarial e respectivos atributos
+
+2) Opcional - Adicionar classe ClienteIndividual
+
+5) Implementar o método relatorio1() que está na classe EmpresaXPTO2
+
+6) No main(...) 
+6.1) criar um objecto Empresa e vários objectos Cliente
+6.2) associar os obj Cliente ao obj Empresa
+6.3) Invocar o método relatorio1() da Empresa
+
+*************************************
+** Parte 2 - funcionários e salários
+*************************************
+
+1) Completar a classe Tarefa (pode ser usada a classe do Exercício de modelação anterior)
+
+2) Adicionar a classe Tarefeiro (herda de quem?)
+2.1) Implementar o método calcularSalario do Tarefeiro
+
+3) No main(...)
+3.1) criar vários objectos Funcionário (dos vários tipos/classes) e objectos Tarefa
+3.2) associar os obj Funcionário ao obj Empresa
+3.3) associar obj Tarefa aos objs Funcionário
+3.3) Invocar o calcular salário para os vários funcionários (e verificar que foi aplicada a fórmula correcta)
+
+--
+
+7) Criar testes automáticos para os cálculos de salários.
